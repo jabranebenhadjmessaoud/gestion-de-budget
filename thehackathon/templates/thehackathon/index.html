@@ -1,0 +1,191 @@
+<!--
+Template Name: PhotoFolio
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>dev</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- tabs -->
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- / tabs -->
+<script type="text/javascript" src="layout/scripts/jquery-photostack.js"></script>
+<!-- coinslider -->
+<script type="text/javascript" src="layout/scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+});
+</script>
+<!-- / coinslider -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Devfest'17</a></h1>
+      <p>GDG sfax</p>
+    </div>
+    <div class="fl_right"><a href="#"><img  src="file:///C:\Users\HP\Desktop\dev\gdg.png" width="481" height="111" alt="" /></a></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul id="topnav">
+      <li class="active"><a href="index.html">D�pence</a></li>
+      <li><a href="pages/style-demo.html">Revenue</a></li>
+      <li><a href="pages/full-width.html"></a></li>
+        
+      </li>
+    </ul>  
+  </div>
+</div>
+ <script>
+   var  a,b,c,d,e ,b1,b2,c1,c2,d1,d2  ;
+    function cal()  
+	{var s 
+	  s=0
+	  a= value("donner le nombre le part","");
+	  b1=value("","");
+	  b2=value("donner le nombre le part","");
+	   s=s+(a*c1*c2);
+	  d1=prompt("donner le prix d'une pause caf�e pour un personne ","");
+	  d2=prompt("donner le nombre de pause cafe�","");
+	   d=a*d1*d2;
+	   e=s;
+	   }
+</script>
+        </li>
+  <script>
+     var T1,C1=150; C2=0; C3=100;
+       function verif()
+         { 	 if ( f.C1.checked==true && f.C2.checked==true && f.C3.checked==false )
+                T1=C1+C2;	
+			if ( f.C1.checked==true && f.C2.checked==false && f.C3.checked==false)
+                T1=C1+C3;		 
+			if ( f.C1.checked== false && f.C2.checked==true && f.C3.checked==true)
+                T1=C2+C3;		} 
+  </script>
+      
+		 <script>
+      var x1=1,x2=20,x3=15,x4=0.5,x5=15,x6=25 ;
+	   function cal2() 
+	    { var s,a 
+		    s=0;
+		 if (f.x1.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x1*a);}
+		if (f.x2.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x2*a);}
+		if (f.x3.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x3*a);}
+		if (f.x4.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x4*a);}
+		if (f.x5.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x5*a);}
+		if (f.x6.checked==true)
+		   { a=promt("donner le nombre que vous voulez","");
+			s=s+(x6*a);} }
+   </script>
+
+<form method="POST" name="f">
+	<table border="0" width="100%">
+		<tr>
+			<td colspan="2" align="center">
+			<p align="center"><font size="5" face="Broadway" color="#008080">
+			Prix des repas</font></td>
+			<td align="center" width="27%">
+			<font size="5" face="Broadway" color="#008080">Speakers</font></td>
+			<td align="center" width="23%">
+			<font size="5" face="Broadway" color="#008080">Animation</font></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<p align="center"><font color="#C0C0C0">Nombre de participant :
+			<input type="text" name="T1" size="20"></font></td>
+			<td width="27%">
+			<p align="center">Choisir deux speakers</td>
+			<td width="23%">&nbsp;<input type="radio" value="V1" name="R1">T-shirt</td>
+		</tr>
+		<tr>
+			<td width="26%"><font color="#C0C0C0">Prix d'une d�jeuner(par 
+			personne)&nbsp; <input type="text" name="b" size="5"></font></td>
+			<td width="23%"><font color="#C0C0C0">nombre de d�jeuner 
+			<input type="text" name="b1" size="5"></font></td>
+			<td width="27%"><input type="checkbox" name="C2" value="ON">Med amin/developeur 
+			web/150dt</td>
+			<td width="23%"><input type="radio" value="V2" name="R1">Bloc notes</td>
+		</tr>
+		<tr>
+			<td width="26%"><font color="#C0C0C0">Prix d'un d�ner(par personne )
+			<input type="text" name="c" size="5"></font></td>
+			<td width="23%"><font color="#C0C0C0">nombre de d�ner 
+			<input type="text" name="c1" size="5"></font></td>
+			<td width="27%"><input type="checkbox" name="C3" value="ON">Slim 
+			kammoun/genie industrielle/gratuit</td>
+			<td width="23%"><input type="radio" value="V3" name="R1">badges</td>
+		</tr>
+		<tr>
+			<td width="26%"><font color="#C0C0C0">Prix d'une pose caf�(par 
+			personne) <input type="text" name="d1" size="5"></font></td>
+			<td width="23%"><font color="#C0C0C0">nombre de pause caf�&nbsp; 
+			<input type="text" name="d2" size="5"></font></td>
+			<td width="27%"><input type="checkbox" name="C4" value="ON">Amine 
+			trabelsi/genie �lectrique/100dt</td>
+			<td width="23%"><input type="radio" value="V4" name="R1">baffles</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<p align="center"><font color="#FF000Total:&nbsp;
+			<input type="text" name="T2" size="20"></font></td>
+			<td width="27%">
+			<p align="center"><font color="#FF0000">Total:&nbsp;
+			<input type="text" name="T3" size="20"></font></td>
+			<td width="23%"><input type="radio" value="V5" name="R1">affiche 
+			80*120 20 </td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td width="27%">&nbsp;</td>
+			<td width="23%"><input type="radio" value="V6" name="R1">affiche 
+			150*200</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td width="27%">&nbsp;</td>
+			<td width="23%"><input type="radio" value="V7" name="R1">Cadeaux</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+			<td width="27%">&nbsp;</td>
+			<td width="23%">&nbsp;</td>
+		</tr>
+	</table>
+
+
+ 
+</body>
+</html>
